@@ -1,0 +1,22 @@
+{
+  "name": "employee-tracker-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sean-Bettoni/Employee-Tracker-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sean-Bettoni/Employee-Tracker-2/issues"
+  },
+  "homepage": "https://github.com/Sean-Bettoni/Employee-Tracker-2#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
