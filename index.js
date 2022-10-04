@@ -1,6 +1,6 @@
 const sequelize = require('./config/connection');
 const inquirer = require("inquirer");
-const mysql = require("mysql2")
+const mysql = require("mysql2");
 
 //Create Connection To DataBase
 const db = mysql.createConnection(
@@ -12,6 +12,7 @@ const db = mysql.createConnection(
 	},
 	console.log(`You Have Successfully Connected To The Employee_db DataBase`)
 );
+
 
 // Run Function On Connection To DataBase
 db.connect(err => {
