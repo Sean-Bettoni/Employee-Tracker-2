@@ -1,39 +1,26 @@
-Windows PowerShell
-Copyright (C) Microsoft Corporation. All rights reserved.
+  # Employee Tracker 2
 
-Try the new cross-platform PowerShell https://aka.ms/pscore6
-
-PS C:\Users\Sean\Desktop\Employee-Tracker-2> git status
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        Generated-README.md
-
-nothing added to commit but untracked files present (use "git add" to track)
-PS C:\Users\Sean\Desktop\Employee-Tracker-2> git add ./
-PS C:\Users\Sean\Desktop\Employee-Tracker-2> git status
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        new file:   Generated-README.md
-
-PS C:\Users\Sean\Desktop\Employee-Tracker-2> git commit -m'Added a readme for this project'
-[main 2ea549a] Added a readme for this project
- 1 file changed, 28 insertions(+)
- create mode 100644 Generated-README.md
-PS C:\Users\Sean\Desktop\Employee-Tracker-2> git push
-Enter passphrase for key '/c/Users/Sean/.ssh/id_rsa':
-Enumerating objects: 4, done.
-Counting objects: 100% (4/4), done.
-Delta compression using up to 16 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 927 bytes | 927.00 KiB/s, done.
-Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-To github.com:Sean-Bettoni/Employee-Tracker-2.git
-   45ea6eb..2ea549a  main -> main
-PS C:\Users\Sean\Desktop\Employee-Tracker-2>
+  ![MIT_License](https://img.shields.io/badge/MIT_License-License-purple)
+  ## Table of Contents:
+  Employee Tracker 2 is a node.js application run from the command line that allows you to track and organise employees in a database.
+  * [Installation](#install)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contribute)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  ### Installation:
+  In order to install the necessary dependencies, open the console and run the following:
+  To run this application first download the repository, then from the command line rune npm install to install all dependencies. Once done the application can be initialised from the command line with node index.js
+  ### Usage:
+  Once node index.js has been run the user will be presented with multiple options in the command line. They can view, add, update and delete  existing data about employees, departments, roles and salaries.
+  ### License:
+  This project is licensed under:
+  MIT_License
+  ### Contributing:
+  To contribute to this project please email the author your suggestions.
+  ### Tests:
+  No testing is needed.
+  ### Questions:
+  If you have any questions please contact me on GitHub:
+  (https://github.com/Sean-Bettoni), or contact Sean Bettoni at bettoni98@hotmail.com
