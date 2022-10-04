@@ -14,6 +14,7 @@
   To run this application first download the repository, then from the command line rune npm install to install all dependencies. Once done the application can be initialised from the command line with node index.js
   ### Usage:
   Once node index.js has been run the user will be presented with multiple options in the command line. They can view, add, update and delete  existing data about employees, departments, roles and salaries.
+  https://vimeo.com/756661544/304b584d32
   ### License:
   This project is licensed under:
   MIT_License
